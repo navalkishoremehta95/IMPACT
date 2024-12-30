@@ -1,6 +1,6 @@
-# MITMEP
+# M²IND
+**M²IND** stands for Multimodal and Multi-sensor Industrial Dataset...
 
-# A Multimodal Dataset for Enhancing Industrial Task Monitoring and Engagement Prediction
 
 ## Overview
 
