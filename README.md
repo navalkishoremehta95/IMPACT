@@ -33,18 +33,4 @@ The dataset is organized into the following components:
    ```bash
    git clone https://github.com/yourusername/M2IND-Dataset.git
 
-
-M2IND-Dataset/
-├── README.md
-├── LICENSE
-├── RGB/
-├── Depth/
-├── IMU/
-├── Annotations/
-├── docs/
-│   ├── data_download.md
-│   └── usage_examples.md
-└── scripts/
-    ├── preprocess.py
-    ├── train_model.py
-    └── evaluate_model.py
+ 
