@@ -1,35 +1,34 @@
-# M²IND
-**M²IND** stands for Multimodal and Multi-sensor Industrial Dataset...
-
+# M²IND Dataset: Multimodal Industrial Engagement and Activity Dataset
 
 ## Overview
+The **M²IND Dataset** is a comprehensive multimodal dataset designed to facilitate research in human-robot collaboration, activity recognition, and engagement prediction within industrial environments. Captured during realistic assembly and disassembly workflows, the dataset offers a rich resource for advancing industrial automation, human behavior modeling, and collaborative robotics.
 
-This repository provides access to a unique **multimodal dataset** aimed at improving industrial task monitoring and engagement prediction. The dataset captures comprehensive interactions in industrial workflows, combining **RGBD video, IMU sensor data, and manual annotations** to support various tasks like **action recognition, engagement level prediction, and task completion verification**.
+## Features
+- **Multimodal Data**: Includes RGB, depth, and 9-axis IMU sensor data from both hands.
+- **Annotations**: Provides action labels, engagement states, and timestamps for over 20 sessions.
+- **Realistic Scenarios**: Simulates real-world tasks with natural operator variability.
+- **Gender-Diverse Subjects**: Includes data from 8 participants across different demographics.
+- **Untrimmed Videos**: Covers 176 minutes of industrial activity.
 
-Key features of this dataset include:
-- **Multimodal recordings:** RGB-D video, IMU sensor data, and hand-object interaction labels.
-- **Diverse industrial actions:** Covering assembly, alignment, and operational tasks.
-- **Engagement labels:** Predicted through operator motion and visual cues.
-- Designed for applications in **Human-Robot Interaction (HRI)**, ergonomics studies, and task monitoring.
- 
----
+## Applications
+The dataset supports a variety of research tasks:
+- Action recognition and localization
+- Engagement prediction
+- Human-robot interaction and collaboration modeling
 
-## Repository Structure
+## Dataset Structure
+The dataset is organized into the following components:
+- `RGB/`: Multi-view RGB video files
+- `Depth/`: Synchronized depth frames
+- `IMU/`: Motion sensor data
+- `Annotations/`: JSON files with labeled actions, engagement states, and timestamps
 
-```plaintext
-├── dataset/
-│   ├── RGBD/
-│   ├── IMU/
-│   ├── annotations/
-│   └── metadata/
-├── examples/
-│   ├── preprocessing/
-│   ├── model_baselines/
-│   └── visualization/
-├── scripts/
-│   ├── data_loader.py
-│   ├── imu_preprocess.py
-│   ├── rgbd_visualizer.py
-│   └── engagement_predictor.py
-├── README.md
-└── LICENSE
+## Recording Setup
+- **Cameras**: Logitech Brio 4K and Intel RealSense D455
+- **IMU Sensors**: Worn on both hands for motion capture
+- **Annotation Tool**: VGG Image Annotator (VIA)
+
+## Usage
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/M2IND-Dataset.git
