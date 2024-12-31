@@ -5,7 +5,7 @@ The **IMPACT Dataset** is a comprehensive multimodal dataset designed to facilit
 
 ## Features
 - **Multimodal Data**: Includes RGB, depth, and 9-axis IMU sensor data from both hands.
-- **Annotations**: Provides action labels, engagement states, and timestamps for over 20 sessions.
+- **Annotations**: Provides action labels, engagement states, and timestamps for over 22 sessions.
 - **Realistic Scenarios**: Simulates real-world tasks with natural operator variability.
 - **Gender-Diverse Subjects**: Includes data from 8 participants across different demographics.
 - **Untrimmed Videos**: Covers 220 minutes of industrial activity.
