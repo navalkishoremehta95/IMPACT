@@ -8,7 +8,7 @@ The **IMPACT Dataset** is a comprehensive multimodal dataset designed to facilit
 - **Annotations**: Provides action labels, engagement states, and timestamps for over 20 sessions.
 - **Realistic Scenarios**: Simulates real-world tasks with natural operator variability.
 - **Gender-Diverse Subjects**: Includes data from 8 participants across different demographics.
-- **Untrimmed Videos**: Covers 176 minutes of industrial activity.
+- **Untrimmed Videos**: Covers 220 minutes of industrial activity.
 
 ## Applications
 The dataset supports a variety of research tasks:
