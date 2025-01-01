@@ -1,6 +1,6 @@
-# M2IND: Multi-Modal Dataset for Industrial Process Monitoring
+# MIAM: Multimodal Industrial Activity Monitoring 
 ## Overview
-The **M2IND Dataset** is a comprehensive multimodal dataset designed to facilitate research in human-robot collaboration, activity recognition, and engagement prediction within industrial environments. Captured during realistic assembly and disassembly workflows, the dataset offers a rich resource for advancing industrial automation, human behavior modeling, and collaborative robotics.
+The **MIAM Dataset** is a comprehensive multimodal dataset designed to facilitate research in human-robot collaboration, activity recognition, and engagement prediction within industrial environments. Captured during realistic assembly and disassembly workflows, the dataset offers a rich resource for advancing industrial automation, human behavior modeling, and collaborative robotics.
 
 ## Features
 - **Multimodal Data**: Includes RGB, depth, and 9-axis IMU sensor data from both hands.
