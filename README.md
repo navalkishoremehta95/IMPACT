@@ -30,6 +30,7 @@ The dataset is organized into the following components:
 ## Usage
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/M2IND-Dataset.git
+   git clone https://github.com/navalkishoremehta95/MIAM
+.git
 
  
