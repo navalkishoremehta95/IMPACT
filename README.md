@@ -34,8 +34,7 @@ The dataset is organized into the following components:
 
 
 ## contact
-naval.ceeri18a@acsir.res.in
-sanjay@ceeri.res.in
+naval.ceeri18a@acsir.res.in, sanjay@ceeri.res.in
 
    
 
